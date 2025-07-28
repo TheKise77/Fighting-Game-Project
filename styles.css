@@ -1,0 +1,283 @@
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+
+
+.main {
+    display: flex; 
+    flex-direction: column;
+    color: #FFFFFF;
+   font-family: var(--fontFamilyPrimary);
+   font-size: var(--fontSizeSm);
+   letter-spacing: 2%;
+   font-weight: normal;
+   line-height: 150%;
+    padding: 20px;
+}
+
+.main-top {
+  display: flex;
+  flex-direction: column;
+  border-bottom-style: solid;
+  border-bottom-color: #4E5058;
+  border-bottom-width: 1.5px;
+  /* background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg'); */
+  background-size: cover;
+  padding: 32px;
+  color: white;
+}
+
+.main-top h1 {
+  margin: 0, 0, 32px, 32px;
+}
+
+
+
+:root {
+  --fontFamilyPrimary: 'Ubuntu Sans', sans-serif;
+  --fontFamilySecondary: 'Spline Sans Mono', monospace;
+  --fontSizeXsm: 0.75em;
+  --fontSizeSm: 1em;
+  --fontSizeMd: 1.25em;
+  --fontSizeLg: 1.75em;
+  --fontSizeXlg: 3em;
+}
+
+body {
+    background-color:red;
+   font-family: var(--fontFamilyPrimary);
+   font-size: var(--fontSizeSm);
+   letter-spacing: 2%;
+   font-weight: normal;
+   line-height: 150%;
+   color: #ff0000;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F1F23;
+  min-height: 100vh;
+  margin-left: 284px; 
+}
+
+.sidenav{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 284px;
+  font-family: var(--fontFamilyPrimary);
+ font-size: var(--fontSizeSm);
+ position: fixed;
+ background-color: #2C2D33;
+ border-right: #4E5058 solid 2px;
+} 
+
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: white;
+  padding: 24px 0px 24px 24px;
+  display: block;
+  border-top: #4E5058 solid 2px;
+letter-spacing: 2%;
+font-weight: bold;
+}
+
+ .sidenav .active, a:hover {
+  background-color: #5D8AA8;
+}
+
+
+.primary {
+    color: #5D8AA8;
+
+}
+
+.stroke {
+    color: #4E5058;
+}
+
+.img-thumbnail {
+  border: none !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+
+
+/* tabs */
+
+
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #5D8AA8;
+  border-radius: 5px;
+}
+
+.tab button.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+text-decoration-color: #5D8AA8;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+
+#searchInput.form-control {
+  width: 340px !important;
+  max-width: 100%;
+  flex: none;
+  background-color: #2C2D33;
+  color: #FFFFFF;
+  font-family: var(--fontFamilyPrimary);
+font-size: var(--fontSizeSm);
+line-height: 150%;
+letter-spacing: 2%;
+}
+
+#searchInput::placeholder { 
+  color: #C0C0C0;
+}
+
+
+
+
+.modal-body {
+display: flex;
+flex-direction: row;
+align-items: stretch;
+padding: 40px;
+width: 1040px;
+height: 624px;
+background: #2C2D33;
+border-radius: 20px;
+border: 3px solid #4E5058;
+
+}
+
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  color: #FFFFFF; 
+  align-items: stretch;
+}
+
+.modal-body img {
+  display: flex;
+  min-width: 50%;
+  max-width: 40%;
+  max-height: 100%;
+  padding: 20px;
+}
+
+
+.characterdetail {
+display: flex;
+text-align: left !important;
+padding: 0px 0px 0px 32px;
+gap: 12px;
+
+
+
+}
+
+
+.modal .modal-content {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* callOut */
+
+.callOut {
+font-family: var(--fontFamilyPrimary);
+font-size: var(--fontSizeXlg);
+color: #5D8AA8;
+font-weight: bold;
+line-height: 150%;
+text-align: left;
+}
+
+title {
+font-family: var(--fontFamilyPrimary);
+font-size: var(--fontSizeXlg);
+line-height: 150%;
+font-weight: bold;}
+
+header {
+font-family: var(--fontFamilyPrimary);
+font-size: var(--fontSizeLg);
+line-height: 150%;
+letter-spacing: 2%;
+font-weight: bold;
+}
+
+label {
+font-family: var(--fontFamilyPrimary);
+font-size: var(--fontSizeSm);
+line-height: 150%;
+letter-spacing: 2%;
+font-weight: bold;
+}
+
+.buttontext {
+font-family: var(--fontFamilyPrimary);
+font-size: var(--fontSizeSm);
+color: #FFFFFF;
+line-height: 150%;
+letter-spacing: 2%;
+font-weight: bold;
+}
+
+.highlightBold {
+font-family: var(--fontFamilySecondary);
+font-size: var(--fontSizeSm);
+line-height: 150%;
+letter-spacing: 2%;
+font-weight: bold;
+}
+
+.highlightRegular {
+font-family: var(--fontFamilySecondary);
+font-size: var(--fontSizeSm);
+line-height: 150%;
+letter-spacing: 2%;
+font-weight: bold;
+} 
+
+.highlightLabel {
+font-family: var(--fontFamilyPrimary);
+font-size: var(--fontSizeSm);
+line-height: 150%;
+letter-spacing: 2%;
+font-weight: bold;
+}

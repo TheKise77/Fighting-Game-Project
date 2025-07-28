@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+<link rel="stylesheet" href="styles.css" >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+ <script src="javascript.js"></script> 
+    </head>
+
+
+<body>
+        
+            
+        <div id="sidenav-placeholder"></div>
+             
+        
+
+
+<div class="box">
+
+<div class="main-top">
+  <header>Notations</header>
+  <p>A collection of key basic skills that will help you win in virtually every fighting game. These include the ability to keep a good range, play footsies, anti-air when the opponent jumps, react to moves with longer starting animations, and condition the opponent so they panic before you. Good fundamentals are the bedrock of a solid player, and once you have enough practice, you can transfer these skills between games, even if the systems are very different.</p>
+
+</div>
+
+
+<div class="main">
+
+
+ <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks buttontext active" onclick="openPlay(event, 'Basics')">The Basics</button>
+  <button class="tablinks buttontext" onclick="openPlay(event, 'Numpad')">Numpad Notations</button>
+</div>
+
+<!-- Tab content -->
+<div id="Basics" class="tabcontent" style="display: block;">
+  <header>The Basics</header>
+  
+  <p>Common terms used to refer to directions and attacks so it’s easier to talk about fighting games. Here are a few rough outlines:</p>
+
+  <p><label>Attacks:</label> Since console buttons aren’t universal it’s more common to use abbreviations for moves themselves. For example a 6-button Fighter (like Street Fighter) will use LP (Light Punch), MP (Medium Punch), HP (Heavy Punch) for punches and LK (Light Kick), MK (Medium Kick), HK (Heavy Kick) for kicks. Anime games (like Guilty Gear or DragonBall Fighterz) typically use LMH for light, medium, heavy attacks, as well as a “unique” attack button like U, S or D. 
+  </p>
+  <p><label>Directions:</label> Many games will use abbreviations such as: d (down), u (up), f (forward), and be (back). Leaving your stick in a neutral position is typically “n”, or some games like Tekken will use a star (☆). Note that these are often referred to as the player being Player 1 (the left side of the screen).  Diagonals, like down + back, will be “db” or “d/b”. Common special move inputs will also have abbreviations, often with a direction attached: quarter circle (qcf or qcb), half circle (hcf or hcb) and Z Motion or often called Dragon Punch / DP (dp or rdp - “reverse DP”). It’s also quite common especially for games like Granblue Fantasy Versus and Guilty Gear to see Numpad Notations, which uses the numbers of your keypad instead of letters.
+  </p>
+  <p><label>Modifiers:</label> Here are some common ways attacks can be modified. Talk about close and far normals with “cl” and “f” (for example cl.HP). Talk about standing and crouching normals with “s”/”st” and “cr” (for example, cr.HP). If you see “c” by itself, this usually means crouching but is ambiguous with “close” so we try to avoid it. Talk about jumping attacks with “j” (for example j.HP)
+  </p>
+  <p><label>Cancels:</label> Removing the recovery of an attack, usually so that you can transition immediately into another move. By far the most common instance is canceling a normal attack into a special move. To do this, input the normal and then immediately input the special move. If the normal hits the opponent, it will kinda stop halfway through and the special move will start immediately. Some people call this standard cancel a 2-in-1 and it has formed the basis of Street Fighter and other 2D games for decades. You'll typically see a cancel notated with "xx", like HP xx fireball.
+  </p>
+  It's far from the only type of canceling in fighting games, though. Sometimes you can cancel a normal into itself (called chaining), or a normal into other normals (called a target combo or a string). You might even be able to cancel a move into nothing, recovering instantly and able to take a new action of your choice (for example, with Guilty Gear's Roman Cancel). Canceling is a staple of the genre, and a concept every fighting game player should know.
+  </p>
+</div>
+
+
+<div id="Numpad" class="tabcontent">
+  <header>Numpad Notations</header>
+  <p>A way to describe joystick inputs using numbers instead of letters or words. Each direction mapped to a number, following the same layout as a keyboard’s numpad. For example, holding down is “2”, and if you wanted to talk about a crouching medium kick, you’d call it “2MK”. Or, holding forward and pressing punch would be “6P” (a common Guilty Gear Anti-Air). You can also describe special move inputs this way. For example, a standard quarter circle forward would be 236, and a DP motion would be 623. Note that numpad notations always assume you are facing right: QCF is always 236, no matter which way your character is pointing</p>
+  
+
+</div>
+
+</div>
+</div>
